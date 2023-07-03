@@ -1,4 +1,4 @@
-Html{ background-color: #fafffd;
+html{ background-color: #fafffd;
 }
 
 .topnav {
@@ -59,6 +59,7 @@ H1 {
 }
 
 H2{ color: #3c362a;
+  
     
 
 }
@@ -110,7 +111,7 @@ li {
 
   
   .row {
-    border: solid #663f46;
+    border: solid 1px #342e37;
     display: flex;
     flex-wrap: wrap;
     padding:  30px;
@@ -133,10 +134,10 @@ li {
    margin-bottom: 20px ;
   }
   .list {
-    list-style-type: square;
+    list-style-type: none;
     padding: 10;
     overflow: hidden;
-    background-color: #e8f7ee;
+    background-color: #b8c4bb;
     border: 1px solid #555;
   }
  
