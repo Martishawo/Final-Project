@@ -1,13 +1,17 @@
+
 H1 {
   color: #342e37;
-  font-family: verdana;
-  font-size: 200%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 150%;
+}
+
+H2{ color: #3c362a;
+    
 
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #b8c4bb;
@@ -27,15 +31,14 @@ ul {
     border-color: solid #342e37;
   }
 
-  /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    background-color: #663f46;
   }
 
 
 li {
-    border-right: 1px solid #bbb;
-   
+    border-right: 1px solid #342e37;
+
   }
   
   li:last-child {
@@ -43,5 +46,59 @@ li {
   }
 
   Body{ background-color: #fafffd;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 20px;
+    border-top: 5px double #663f46;
+  
+}
 
+  
+  .row {
+    border: solid #663f46;
+    display: flex;
+    flex-wrap: wrap;
+    padding:  30px;
+    margin: 30px;
+    background-color: #b8c4bb;
+    
+  
   }
+  
+  .column {
+    flex: 50%;
+    padding:  30px;
+    margin: 30px;
+  }
+  
+  .column img {
+    margin-top: 20px;
+    vertical-align: middle;
+    margin-left: 30px;
+   margin-bottom: 20px ;
+  }
+ 
+
+  footer {
+    border: #663f46;
+    border-style: solid;
+    text-align: center;
+    padding-top: 5px;
+    margin: 4px 2px;
+    background-color: #3c362a;
+    color: #fafffd;
+    display: block;
+  }
+  
+  .button {
+    border: solid #663f46;
+    color: #342e37;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration:solid;
+    display: inline-block;
+    font-size: 10px;
+    margin: 2px 2px;
+    cursor: pointer;
+  }
+ 
