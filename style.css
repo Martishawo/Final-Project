@@ -12,6 +12,8 @@ H2{ color: #3c362a;
 
 }
 
+
+
 ul  {
     list-style-type: none;
     padding: 0;
@@ -81,13 +83,7 @@ li {
     margin-left: 30px;
    margin-bottom: 20px ;
   }
-  .list {
-    list-style-type: square;
-    padding: 10;
-    overflow: hidden;
-    background-color: #e8f7ee;
-    border: 1px solid #555;
-  }
+ 
  
   footer {
     border: #663f46;
