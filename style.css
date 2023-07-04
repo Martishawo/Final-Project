@@ -84,7 +84,7 @@ ul  {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-color: solid #342e37;
+    border-color: solid 1px #342e37;
   }
 
   li a:hover {
