@@ -140,20 +140,8 @@ li {
     background-color: #b8c4bb;
     border: 1px solid #555;
   }
- 
-  footer {
-    border: #663f46;
-    border-style: solid;
-    text-align: center;
-    padding-top: 5px;
-    margin: 4px 2px;
-    background-color: #3c362a;
-    color: #fafffd;
-    display: block;
-  }
-  
   .button {
-    border: solid #663f46;
+    border: solid #342e37;
     color: #342e37;
     padding: 5px 5px;
     text-align: center;
@@ -164,3 +152,16 @@ li {
     cursor: pointer;
   }
  
+
+  footer {
+    border: #663f46;
+    border-style: solid;
+    text-align: center;
+    padding-top: 5px;
+    margin: 4px 2px;
+    background-color: #342e37;
+    color: #fafffd;
+    display: block;
+  }
+  
+  
